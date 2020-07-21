@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        width: 100%;
+        background-color: #dddddd;
+        font-size: 20px;
+      }
+
+      .clear {
+        clear: both;
+      }
+      .nav-bar {
+        background-color: #333333;
+        color: white;
+        text-align: center;
+      }
+      nav h1 {
+        float: left;
+        padding: 10px;
+      }
+
+      nav ul {
+        float: right;
+        padding: 15px;
+        list-style: none;
+      }
+      nav li {
+        display: inline;
+        padding: 15px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #dddddd;
+      }
+      nav a:hover {
+        color: rgb(84, 84, 206);
+      }
+      .main {
+        text-align: center;clear: both;
+        
+      
+      }
+      .content {
+        background-image: url("img/music.jpg");
+        padding: 4.5rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-size: 20px;
+        color: whitesmoke;
+        text-shadow: 6px -2px 6px rgb(224, 197, 145);
+      }
+      .subscribe input{
+      width: 30%;
+      padding: 5px;
+      border: none;
+      }
+      .subscribe{
+        padding: 3px;
+        }
+        .subscribe:hover{
+          color: burlywood;
+        }
+        .footer{
+          background-color: #333333;
+          text-align: center;
+          color: coral;
+          overflow: hidden;
+          display: block;
+          
+        }
+        .clear{
+          clear: both;
+        }
+        footer .left{
+          float: left;
+          padding: 15px;
+        }
+        footer .right{
+          float: right;
+          padding: 15px;
+        }
+        @media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .nav-bar, .main, .footer {
+    width: 100%;
+  }
+}
+
+      
+      
+    </style>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <nav class="nav-bar">
+        <h1>Composing Code: <span style="color: coral;">1976</span></h1>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Podcasts</a></li>
+          <li><a href="form.html" target="_blank">Survey</a></li>
+        </ul>
+        <div class="clear"></div>
+      </nav>
+    </header><hr>
+    <!--Main section-->
+    <section class="main">
+      <div class="content">
+        
+          <h3>ALWAYS:</h3>
+
+          <code>try{your best and;</code><br />
+          <code>do{</code><br />
+          <code>what you need to do;</code><br />
+          <code>}while (you still have time);</code><br />
+          <code>for(opportunity; comes; only once){so grab the chance;}</code
+          ><br />
+          <code>if(you fail)</code> <br />
+          <code>throw 'all your worries';</code><br />
+          <code>}catch(yourself){</code>
+          <code
+            >evetime you fall; and you know to whom you should goto
+            always;</code
+          >
+          <br /><code>}</code>
+          <div class="subscribe">
+            <input type="text" name="email" id="email" placeholder="your email@email.com">
+            <button class="subscribe" type="submit">Subscribe</button>
+          </div>
+        </div>
+        
+      </section>
+      
+    
+    <!--Footer-->
+    <footer class="footer">
+      <p class="left">This is my first personal website using HTML and CSS.</p>
+      <p class="right">&copy; Calgary</p>
+      <div class="clear"></div>
+    </footer>
+  </body>
+</html>

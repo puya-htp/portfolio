@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 62.5%;
+      }
+      .clear {
+        clear: both;
+      }
+      h1 {
+        font-size: 2.8rem;
+      }
+      h2 {
+        font-size: 3.6rem;
+        padding: 5rem 0rem;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 2.4 rem;
+      }
+      h3 {
+        font-size: 2.8rem;
+      }
+      button {
+        font-size: 1.8rem;
+      }
+      nav {
+        background-color: rgb(53, 53, 99);
+        color: white;
+        font-size: 2rem;
+        
+      }
+      nav h1 {
+        float: left;
+        padding: 20px;
+      }
+      nav ul {
+        float: right;
+        list-style: none;
+        padding: 20px;
+        
+      }
+      nav li {
+        float: left;
+        margin: 0rem 4rem;
+      }
+      .hero-section {
+        background-image: url('img/food2.jpg');
+        height: 80rem;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: rgb(197, 84, 84);
+        padding: 15rem;
+        text-shadow: 3px -10px 3px black;
+      }
+      .hero-section button {
+        margin-top: 4rem;
+        padding: 1rem 4rem;
+        background: rgb(63, 101, 173);
+        border: none;
+        color: white;
+        cursor: pointer;
+      }
+      .form-section {
+        text-align: center;
+      }
+      
+      form input,
+      form label,
+      form textarea {
+        display: block;
+        font-size: 2.4rem;
+        
+      }
+      
+      form input, form textarea{
+          margin: 2rem auto;
+          width: 50%;
+      }
+      form button{
+          margin-bottom: 10rem;
+          padding: 1rem 4rem;
+        background: rgb(63, 101, 173);
+        border: none;
+        color: white;
+        cursor: pointer;
+        width: 50#;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 id="logo">VULMAWI 1976</h1>
+        <ul>
+          <a href="#">Home</a>
+        </ul>
+        <ul>
+          <a href="#">About</a>
+        </ul>
+        <ul>
+          <a href="#">Contact</a>
+        </ul>
+        <ul>
+          <a href="#">Services</a>
+        </ul>
+        <div class="clear"></div>
+      </nav>
+    </header>
+    <section class="hero-section">
+      <h2>The cooking master</h2>
+      <h3>Buy our homemade bakery</h3>
+      <button>Buy</button>
+    </section>
+    <section class="form-section">
+      <header>
+        <h2>Contact us</h2>
+      </header>
+      <form>
+        <label for="name-input">Name:</label>
+        <input type="text" name="name" id="name-input" />
+        <label for="email-input">Email:</label>
+        <input type="email" name="email" id="email-input" />
+        <label for="name">Message</label>
+        <textarea
+          name="message"
+          id="message-input"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button class="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
